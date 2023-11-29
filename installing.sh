@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo su
 sudo apt-get install build-essential git dkms linux-headers-$(uname -r)
 git clone https://github.com/kelebek333/rtl8188fu
 sudo dkms add ./rtl8188fu
